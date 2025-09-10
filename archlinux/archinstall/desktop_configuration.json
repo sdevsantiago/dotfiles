@@ -26,6 +26,9 @@
         "mirror_regions": {},
         "optional_repositories": []
     },
+    "network_config": {
+        "type": "nm"
+    },
     "ntp": true,
     "packages": [
         "amd-ucode",
