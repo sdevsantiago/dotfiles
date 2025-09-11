@@ -11,7 +11,6 @@
     "auth_config": {},
     "bootloader": "Grub",
     "custom_commands": [],
-    "hostname": "torre-archlinux",
     "kernels": [
         "linux-zen"
     ],
