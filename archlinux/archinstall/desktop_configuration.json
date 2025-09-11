@@ -40,6 +40,8 @@
         "firefox",
         "fzf",
         "git",
+        "man-db",
+        "man-pages",
         "nano",
         "ntfs-3g",
         "obs-studio",
