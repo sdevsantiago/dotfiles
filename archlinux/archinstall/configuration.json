@@ -30,7 +30,6 @@
     },
     "ntp": true,
     "packages": [
-        "amd-ucode",
         "bash-completion",
         "cmatrix",
         "code",
