@@ -76,7 +76,8 @@
         "hyprlang",
         "hyprland-protocols",
         "aquamarine",
-        "openssh"
+        "openssh",
+        "wofi"
     ],
     "parallel_downloads": 0,
     "profile_config": {
