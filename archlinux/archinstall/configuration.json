@@ -12,13 +12,8 @@
     "bootloader": "Grub",
     "custom_commands": [],
     "kernels": [
-        "linux-zen"
+        "linux"
     ],
-    "locale_config": {
-        "kb_layout": "es",
-        "sys_enc": "UTF-8",
-        "sys_lang": "en_US.UTF-8"
-    },
     "mirror_config": {
         "custom_repositories": [],
         "custom_servers": [],
@@ -30,49 +25,70 @@
     },
     "ntp": true,
     "packages": [
+        "base-devel",
         "bash-completion",
         "cmatrix",
         "code",
         "cowsay",
         "curl",
+        "discord",
         "fastfetch",
         "firefox",
+        "flatpak",
         "fzf",
         "git",
+        "hyprland",
+        "hyprland-qt-support",
+        "hyprland-qtutils",
+        "hyprpolkitagent",
+        "kitty",
+        "less",
+        "linux-headers",
         "man-db",
         "man-pages",
         "nano",
         "ntfs-3g",
+        "nwg-look",
         "obs-studio",
         "obsidian",
         "os-prober",
+        "qt5-wayland",
+        "qt6-wayland",
+        "ranger",
         "sl",
+        "spotify-launcher",
         "stow",
+        "swaync",
         "thunderbird",
         "tmux",
         "ttf-firacode-nerd",
         "vim",
-        "discord"
+        "waybar",
+        "hyprcursor",
+        "hyprgraphics",
+        "hypridle",
+        "hyprlock",
+        "hyprpaper",
+        "hyprpicker",
+        "hyprutils",
+        "hyprwayland-scanner",
+        "hyprsunset",
+        "hyprlang",
+        "hyprland-protocols",
+        "aquamarine"
     ],
     "parallel_downloads": 0,
     "profile_config": {
-        "gfx_driver": "Nvidia (proprietary)",
+        "gfx_driver": null,
         "greeter": "ly",
         "profile": {
-            "custom_settings": {
-                "Hyprland": {
-                    "seat_access": "polkit"
-                }
-            },
-            "details": [
-                "Hyprland"
-            ],
-            "main": "Desktop"
+            "custom_settings": {},
+            "details": [],
+            "main": "Minimal"
         }
     },
     "script": null,
     "services": [],
     "swap": true,
-    "timezone": "Europe/Madrid",
     "version": "3.0.10"
 }
