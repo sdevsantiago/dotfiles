@@ -3,12 +3,17 @@
 loadkeys es
 ```
 
-2. List disks
+2. Connect to Wi-Fi
+```zsh
+iwctl station wlan0 connect <network_name>
+```
+
+4. List disks
 ```zsh
 lsblk
 ```
 
-3. Create and format partitions on disk
+4. Create and format partitions on disk
 ```zsh
 cfdisk /dev/<disk>
 
@@ -17,37 +22,37 @@ mkswap /dev/<disk>        # [SWAP] partition
 mkfs.ext4 /dev/<disk>     # root (/) partition
 ```
 
-4. Update archinstall and keyring
+5. Update archinstall and keyring
 ```zsh
 pacman -Sy archinstall archlinux-keyring
 ```
 
-5. Run archinstall with config file
+6. Run archinstall with config file
 
 ```zsh
 pacman -Sy git
 git clone https://github.com/sdevsantiago/dotfiles
-archinstall --config path/to/config/file.json
+archinstall --config path/to/config/file.json # also install intel-ucode/amd-ucode
 ```
 
 If dual-booting, follow the next steps
 
-6. Run os-prober
+7. Run os-prober
 ```zsh
 os-prober
 ```
 
-7. Enable os-prober on grub
+8. Enable os-prober on grub
 ```zsh
 sudo vim /etc/default/grub # uncomment GRUB_DISABLE_OS_PROBER=false line
 ```
 
-8. Update grub config
+9. Update grub config
 ```zsh
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-9. Reboot the system
+10. Reboot the system
 ```zsh
 exit
 reboot now
