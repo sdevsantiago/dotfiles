@@ -76,7 +76,8 @@
         "hyprland-protocols",
         "aquamarine",
         "openssh",
-        "wofi"
+        "wofi",
+	"pactree"
     ],
     "parallel_downloads": 0,
     "profile_config": {
