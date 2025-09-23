@@ -77,7 +77,10 @@
         "aquamarine",
         "openssh",
         "wofi",
-	"pactree"
+	"pactree",
+	"tree",
+	"wget",
+	"keepass"
     ],
     "parallel_downloads": 0,
     "profile_config": {

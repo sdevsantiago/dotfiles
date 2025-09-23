@@ -8,3 +8,6 @@ git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # install vscode (microsoft fork)
 yay -Sy visual-studio-code-bin
+
+# install slack
+yay -Sy slack-desktop
