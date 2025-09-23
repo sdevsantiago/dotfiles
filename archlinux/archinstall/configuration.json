@@ -80,7 +80,8 @@
 	"pactree",
 	"tree",
 	"wget",
-	"keepass"
+	"keepass",
+	"valgrind"
     ],
     "parallel_downloads": 0,
     "profile_config": {
