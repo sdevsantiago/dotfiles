@@ -11,3 +11,6 @@ yay -Sy visual-studio-code-bin
 
 # install slack
 yay -Sy slack-desktop
+
+# install norminette
+pipx install norminette && pipx ensurepath
