@@ -81,7 +81,8 @@
 	"tree",
 	"wget",
 	"keepass",
-	"valgrind"
+	"valgrind",
+	"htop"
     ],
     "parallel_downloads": 0,
     "profile_config": {
