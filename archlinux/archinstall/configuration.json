@@ -83,7 +83,8 @@
 	"keepass",
 	"valgrind",
 	"htop",
-	"pyton-pipx"
+	"pyton-pipx",
+	"brightnessctl"
     ],
     "parallel_downloads": 0,
     "profile_config": {
