@@ -87,7 +87,8 @@
 	"brightnessctl",
 	"hyprshot",
 	"zip",
-	"unzip"
+	"unzip",
+	"lldb"
     ],
     "parallel_downloads": 0,
     "profile_config": {
