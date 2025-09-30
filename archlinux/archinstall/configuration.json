@@ -85,7 +85,9 @@
 	"htop",
 	"pyton-pipx",
 	"brightnessctl",
-	"hyprshot"
+	"hyprshot",
+	"zip",
+	"unzip"
     ],
     "parallel_downloads": 0,
     "profile_config": {
