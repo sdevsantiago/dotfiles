@@ -84,7 +84,8 @@
 	"valgrind",
 	"htop",
 	"pyton-pipx",
-	"brightnessctl"
+	"brightnessctl",
+	"hyprshot"
     ],
     "parallel_downloads": 0,
     "profile_config": {
