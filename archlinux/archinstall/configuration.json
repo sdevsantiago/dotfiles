@@ -88,7 +88,10 @@
 	"hyprshot",
 	"zip",
 	"unzip",
-	"lldb"
+	"lldb",
+	"gradle",
+	"wireplumber",
+	"xdg-desktop-portal-hyprland"
     ],
     "parallel_downloads": 0,
     "profile_config": {

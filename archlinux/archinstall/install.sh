@@ -14,3 +14,9 @@ yay -Sy slack-desktop
 
 # install norminette
 pipx install norminette && pipx ensurepath
+
+# install wormhole
+pipx install wormhole
+
+# install screen sharing dependencies
+yay -Sy xwaylandvideobridge
