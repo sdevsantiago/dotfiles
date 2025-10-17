@@ -91,7 +91,7 @@
 	"lldb",
 	"gradle",
 	"wireplumber",
-	"xdg-desktop-portal-hyprland"
+	"docker"
     ],
     "parallel_downloads": 0,
     "profile_config": {
