@@ -19,4 +19,18 @@ pipx install norminette && pipx ensurepath
 pipx install wormhole
 
 # install screen sharing dependencies
-yay -Sy xwaylandvideobridge
+#yay -Sy xwaylandvideobridge
+
+# install quickshell
+# dependencies
+sudo pacman --needed -Sy cmake qt6-base qt6-declarative qt6-shadertools qt6-wayland qt6-svg spirv-tools pkg-config cli11
+# crash reporter
+sudo pacman -needed -Sy google-breakpad
+# jemalloc (for lower memory usage)
+sudo pacman -needed -Sy jemalloc
+# wayland
+sudo pacman -needed -Sy qt6-wayland wayland hyprwayland-scanner wayland-protocols
+# quickshell
+yay -S quickshell
+
+
