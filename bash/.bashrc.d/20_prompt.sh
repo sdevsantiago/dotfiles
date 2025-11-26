@@ -4,9 +4,7 @@
 
 # Enable git prompt support
 [[ -f /usr/share/git/completion/git-prompt.sh ]] \
-	&& cp /usr/share/git/completion/git-prompt.sh ~/.git-prompt.sh \
-	&& . ~/.git-prompt.sh \
-	&& rm ~/.git-prompt.sh
+	&& . /usr/share/git/completion/git-prompt.sh
 
 # Prompt customization
 #
