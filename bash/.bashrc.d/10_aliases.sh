@@ -8,14 +8,10 @@ alias please='sudo'
 
 # ls
 
-alias ls='ls --color=auto --classify'
+alias ls='lsd --color=auto --classify'
 alias la='ls -a'
 alias l='la'
 alias ll='ls -la'
-
-# rm
-
-alias rf='rm  -rf'
 
 # mkdir
 
