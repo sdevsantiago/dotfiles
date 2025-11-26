@@ -91,7 +91,8 @@
 	"lldb",
 	"gradle",
 	"wireplumber",
-	"docker"
+	"docker",
+	"lsd"
     ],
     "parallel_downloads": 0,
     "profile_config": {
