@@ -19,3 +19,6 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export PATH="$PATH:/home/sergio/.local/bin"
 
 export HYPRSHOT_DIR="~/Images/Screenshots"
+
+# thefuck
+eval "$(thefuck --alias)" # enable fuck alias
