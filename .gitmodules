@@ -1,0 +1,15 @@
+[submodule "vim/.vim/pack/vendor/start/fzf.vim"]
+	path = vim/.vim/pack/vendor/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "vim/.vim/pack/vendor/start/vim-airline"]
+	path = vim/.vim/pack/vendor/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/.vim/pack/vendor/start/vim-devicons"]
+	path = vim/.vim/pack/vendor/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "vim/.vim/pack/vendor/start/vim-rainbow"]
+	path = vim/.vim/pack/vendor/start/vim-rainbow
+	url = https://github.com/frazrepo/vim-rainbow
+[submodule "vim/.vim/pack/vendor/start/fzf"]
+	path = vim/.vim/pack/vendor/start/fzf
+	url = https://github.com/junegunn/fzf
